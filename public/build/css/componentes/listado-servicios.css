@@ -1,0 +1,27 @@
+.listado-servicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.servicio {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  color: #000;
+  padding: 1rem;
+  text-align: center;
+}
+.servicio .nombre-servicio {
+  font-family: "Secular One", sans-serif;
+  color: #000;
+}
+.servicio .precio-servicio {
+  color: #F58506;
+  font-weight: 700;
+}
+.servicio.seleccionado {
+  background-color: #000;
+}
+.servicio.seleccionado p {
+  color: #fff;
+}

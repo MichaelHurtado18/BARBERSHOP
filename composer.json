@@ -1,0 +1,23 @@
+{
+    "name": "michael/app-salon",
+    "description": "AppSalon - MVC - POO - GULP - SASS - MYSQL",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "Controller\\": "./controllers",
+            "MVC\\": "./",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Hurtado",
+            "email": "michael.hurtado1218@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

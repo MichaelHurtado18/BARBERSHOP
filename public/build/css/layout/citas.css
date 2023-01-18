@@ -1,0 +1,14 @@
+.seccion {
+  display: none;
+}
+.seccion p {
+  text-align: center;
+}
+
+.mostrar {
+  display: block;
+}
+
+.ocultar {
+  display: none;
+}
